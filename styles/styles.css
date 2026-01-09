@@ -79,3 +79,36 @@
     margin-bottom: 154px;
 }
 
+.top{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px ;
+    padding:8px 12px ;
+    background-color: #FFFFFF;
+    color: #469165;
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    width: 239px;
+    transition: transform 0.15s ease,
+    box-shadow 0.15s ease;
+    background: var(--#30B868, rgb(70, 101, 1));
+}
+    
+.icon-text{
+    font-size: 16px;
+    font-weight: bold;
+
+
+}   
+
+
+
+.icon-dott{
+    width: 16px;
+    height: 16px;
+    background-color: #469165;
+    border-radius: 8px;
+    
+}
