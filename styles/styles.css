@@ -39,3 +39,43 @@
     border: none;
     cursor: pointer;
 }
+
+.main-sec {
+    text-align: center;
+    background:url(../images/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 120px 134px 120px;
+    gap: 40px;  
+}
+.main-sec h1{
+    margin-top: 16px;
+    color: #FFFFFF;
+    line-height: 84px;
+    font-size: 72px;
+    text-align: center;
+}
+.main-sec h1 span{
+    color: #469165;
+}
+.main-sec p{
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    /* justify-content: space-evenly; */
+}
+.another-btn{
+    margin-top: 32px;
+    padding: 12px 16px;
+    background: transparent;
+    border-radius: 5%;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+} 
+.main-sec >div{
+    margin-bottom: 154px;
+}
+
