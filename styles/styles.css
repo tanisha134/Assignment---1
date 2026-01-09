@@ -175,12 +175,11 @@ section{
     margin-bottom: 140px;
 }
 .solution-container{
-    gap: 60px;
+    gap: 110px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly
-    ;
-}   
+    justify-content: space-evenly;
+}  
 .image{
     width: 100%;
     max-width: 520px;
@@ -230,6 +229,7 @@ section{
     padding: 120px 40px;
     text-align: center;
     background: transparent;
+    margin-bottom: 120px;
  
 }
 .before-last h2{
@@ -252,4 +252,47 @@ section{
 }
 .d{
     margin-top: 10px;
+}
+.footer{
+    background: #001931;
+    padding: 120px 120px 30px;
+    color: #FFFFFF;
+}
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed rgba(255,255,255,0.25);
+    padding-bottom: 30px;
+}
+.footer-links p{
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.8;
+    text-align: right;
+
+}
+.footer-links .icons{
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+}
+.footer-links  a{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid  rgba(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer .bottom{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.75;
+    margin-top: 24px;
 }
