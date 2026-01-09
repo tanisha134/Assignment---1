@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
 }
 .header-design{
     display: flex;
@@ -140,6 +142,7 @@ section{
     display: grid;
     justify-items: center;
     text-align: center;
+    height: 220px;
 
 }
 .card h3{
@@ -166,4 +169,59 @@ section{
     font-size: 2em;
     padding: 3px;
 }
+.solution{
+    background-color: #FFFFFF;
+    padding: 120px 120px;
+}
+.solution-container{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+    ;
+}   
+.image{
+    width: 100%;
+    max-width: 520px;
+}
+.lable{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    letter-spacing: 0.07em;
+    margin-bottom: 16px;
+    display: inline-block;
 
+}
+.text h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom:16px ;
+}
+.description{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+    max-width: 520px;
+}
+.solution-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.solution-items li{
+    font-size:16px ;
+    color: #001931;
+    margin-bottom: 14px;
+    padding-left: 30px;
+    position: relative;
+}
+.solution-items li::before{
+    content: url(../images/assets/CheckCircle.png);
+    position: absolute;
+    left: 0;
+    color: #30B868;
+    font-weight: 700;
+}
